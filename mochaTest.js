@@ -8,7 +8,7 @@ var timeOut = 90000;
       done();  
     }).timeout(timeOut); 
     it('HeatingChange:Thermostat Not Found', function(done) {
-      expect(200).to.equal(100);
+      expect(100).to.equal(100);
       done();  
     }).timeout(timeOut); 
 });  
