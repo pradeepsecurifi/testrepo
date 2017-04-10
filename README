@@ -1,0 +1,21 @@
+FUNCTIONALITIES
+
+1)All External Commands are implemented in external() function.
+
+2)cd is implemented in cd() function
+
+3)pwd is implemented in cwd() function
+
+4)export command is implemented in export_env() function
+
+5)Environment variables are printed using echo_env() function
+
+6)Redirection operators < , > , << , >> are implemented in external itself before executing the command.
+
+7)Background ,Foreground functionalies are implemented in fg() and external() functions. A maximum of 5 process can run in background
+
+8)Support for history and '!' operator has been provided.A max of 10 commands are stored in character array so as to support ! operator. 
+
+9)Multiple Piping “|” is implemented in external command.
+
+
